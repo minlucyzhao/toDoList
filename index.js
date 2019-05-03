@@ -9,7 +9,7 @@ function newTask(title, description) {
   const task = {
     title: title,
     description: description,
-    complete: false,
+    complete: false, 
     logState: function () {
       console.log(`${task.title} has${task.complete ? " " : " not "}been completed`);
     },
